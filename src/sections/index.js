@@ -7,6 +7,7 @@ import CustomerReviews from './CustomerReviews';
 import Subscribe from './Subscribe';
 import Footer from './Footer';
 
+
 export {
     Hero,
     PopularProducts,
@@ -18,3 +19,4 @@ export {
     Footer
 
 }
+

@@ -21,6 +21,16 @@ export default {
         palanquin: ['Palanquin', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],
       },
+      keyframes: {
+        'open-menu': {
+          '0%': { transform: 'scaleY(0)' },
+          '80%': { transform: 'scaleY(1.2)' },
+          '100%': { transform: 'scaleY(1)' },
+        },
+      },
+      animation: {
+        'open-menu': 'open-menu 0.5s ease-in-out forwards',
+      },
       colors: {
         'primary': "#ECEEFF",
         "coral-red": "#FF6452",
@@ -39,6 +49,6 @@ export default {
         "wide": "1440px"
       }
     },
+    plugins: [],
   },
-  plugins: [],
 }
